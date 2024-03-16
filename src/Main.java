@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         final int[] sum = {0};
-        final int[] max = {Integer.MIN_VALUE};
+        final int[] max = {0};
 
         Thread sumThread = new Thread(() -> {
             for (int number : numbers) {
